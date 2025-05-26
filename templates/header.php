@@ -69,6 +69,19 @@ echo "-->\n";
         }
         /* Custom styles can go here if needed */
         .navbar { margin-bottom: 20px; }
+
+        /* Custom primary color override */
+       .bg-primary {
+           background-color: #0056b3 !important;
+       }
+       .btn-primary {
+           background-color: #0056b3 !important;
+           border-color: #0056b3 !important;
+       }
+       .btn-primary:hover {
+           background-color: #004085 !important; /* A darker shade for hover */
+           border-color: #004085 !important;
+       }
     </style>
 </head>
 <body>
